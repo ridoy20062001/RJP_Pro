@@ -1,0 +1,39 @@
+<web-app>
+
+
+      <servlet>
+        <servlet-name>RJP</servlet-name>
+        <jsp-file>/RJP.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RJP</servlet-name>
+        <url-pattern>/RJP</url-pattern>
+    </servlet-mapping>
+
+    
+    <servlet>
+        <servlet-name>RJP</servlet-name>
+        <servlet-class>/RJPServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RJP</servlet-name>
+        <url-pattern>/RJP</url-pattern>
+    </servlet-mapping>
+
+    
+    <servlet>
+        <servlet-name>output</servlet-name>
+        <jsp-file>/output.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>output</servlet-name>
+        <url-pattern>/output</url-pattern>
+    </servlet-mapping>
+
+
+
+    
+
+
+
+</web-app>
