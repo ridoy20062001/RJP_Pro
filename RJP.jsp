@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>ユーザー登録</h1>
-    <form method="post" action="./registtest"> 
+    <form method="post" action="RJPServlet"> 
         ユーザー名<input type="text" name="name"><br>
         好きなゲーム<input type="text" name="fav"><br>
         <input type="submit" value="登録" />

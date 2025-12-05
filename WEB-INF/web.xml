@@ -12,12 +12,12 @@
 
     
     <servlet>
-        <servlet-name>RJP</servlet-name>
-        <servlet-class>/RJPServlet</servlet-class>
+        <servlet-name>RJPServlet</servlet-name>
+        <servlet-class>RJPServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>RJP</servlet-name>
-        <url-pattern>/RJP</url-pattern>
+        <servlet-name>RJPServlet</servlet-name>
+        <url-pattern>/RJPServlet</url-pattern>
     </servlet-mapping>
 
     

@@ -25,7 +25,7 @@ public class RJPServlet extends HttpServlet {
 
         // 出力JSP（output.jsp）へフォワード
         RequestDispatcher dispatcher =
-                req.getRequestDispatcher("output.jsp");
+                req.getRequestDispatcher("output");
 
         dispatcher.forward(req, res);
     }
