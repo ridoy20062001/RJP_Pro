@@ -14,7 +14,7 @@ public class RegistTestServlet extends HttpServlet {
         req.setCharacterEncoding("utf-8");
 
         String username = req.getParameter("name");
-        String password = req.getParameter("fav");
+        String favoritegame = req.getParameter("fav");
 
         req.setAttribute("name", username);
         req.setAttribute("fav", favoritegame);
